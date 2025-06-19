@@ -8,7 +8,7 @@ namespace MissingNumber.Services
         /// Calculates the missing number in a sequence.
         /// </summary>
         /// <param name="numbers">An array of integers representing the sequence.</param>
-        /// <returns>The missing number if found, otherwise -1.</returns>
+        /// <returns>The missing number if found, otherwise context message</returns>
         string CalculateMissingNumber(int[] numbers);
     }
 
